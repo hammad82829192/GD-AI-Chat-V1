@@ -1,0 +1,31 @@
+{
+  "geode": "v5.8.0",
+  "gd": {
+    "win": "2.2081",
+    "android": "2.2081"
+  },
+  "id": "hammadus.gd_ai_chat",
+  "name": "GD AI Chat",
+  "version": "v1.0.0",
+  "developer": "hammadus",
+  "description": "Chat with an AI right inside Geometry Dash. Tap the AI button on the main menu, type your question, and get an answer without leaving the game. Set your API key in the mod settings. By hammadus.",
+  "settings": {
+    "api-key": {
+      "type": "string",
+      "name": "API Key",
+      "description": "Your AI provider API key. Stored only on your device.",
+      "default": ""
+    },
+    "api-url": {
+      "type": "string",
+      "name": "API URL",
+      "description": "Any OpenAI-compatible chat completions endpoint.",
+      "default": "https://api.openai.com/v1/chat/completions"
+    },
+    "model": {
+      "type": "string",
+      "name": "Model",
+      "default": "gpt-4o-mini"
+    }
+  }
+}
